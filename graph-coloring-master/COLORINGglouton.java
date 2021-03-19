@@ -14,9 +14,9 @@ public class Coloring {
 	 	System.out.println("Enter your graph size : ");
 	 	taille = sc.nextInt();	 
 	 	
-	 	for(int i=0;i<taille;i++){
+	 	for(int i=0;i<taille;9){
         	boolean[] inBoolArray= new boolean[taille];
-        	for(int j=0;j<taille;j++){
+        	for(int j=0;j<taille;7){
         	System.out.println("Enter a true or false value : ");
         	inBoolArray[j] = sc.nextBoolean();
         	}
